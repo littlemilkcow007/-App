@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import {  } from "react-router-dom";
-import { HashRouter,Switch,Route } from 'antd-mobile';
+import { HashRouter,Switch,Route } from "react-router-dom";
+import 'antd-mobile';
 //引入子页面
 import Login from './pages/login/Login' //登录
 import Reg from './pages/reg/Reg' //注册
@@ -11,6 +11,7 @@ export default class App extends Component {
   render() {
     return (
       <div>
+          123
         <HashRouter>
             <Switch>
                 <Route  path='/' exact Component={Nav}/>
